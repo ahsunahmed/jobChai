@@ -1,0 +1,631 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	width: 100%;
+}
+
+/* Header Area CSS */
+
+.logo a {
+  font-size: 30px;
+  font-weight: 600;
+  color: #43EF6E;
+}
+.logo a span {
+  color: #333;
+}
+.header-area {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-area {
+}
+.menu a {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 15px;
+  transition: 0.3s ease;
+}
+a.signup {
+  background-color: #43EF6E;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+a.signup:hover{
+	color: #ffff!important;
+	background-color: #333;
+}
+.menu a:hover {
+  color: #43EF6E;
+}
+
+
+/* Banner CSS */
+.banner-area{
+	padding: 20px 0;
+}
+.banner-content-left h3 {
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #333;
+  margin-bottom: 40px;
+  margin-top: -50px;
+  line-height: 42px;
+}
+.banner-content {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: 1fr 1fr;
+}
+.banner-content-left {
+ flex: 48%; 
+}
+.banner-content-right {
+  flex: 48%; 
+}
+.search_jobs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  position: relative;
+  max-width: 420px;
+}
+.search_jobs label img {
+  width: 25px;
+  align-items: ;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+form.search_jobs input[type="search"] {
+  padding: 10px 0px 10px 10px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-right: 1px solid #ddd;
+  outline: none;
+}
+select {
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 10px;
+  color: #333;
+  font-size: 14px;
+}
+.search-btn{
+  background-color: #43EF6E;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 50px;
+  position: absolute;
+  right: -148px;
+  top: 0;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+
+/* Brand Area CSS */
+
+.brand-area {
+  padding: 50px 0 80px;
+  background-color: #ccc;
+  color: #fff;
+}
+.brand-area .container h3 {
+  color: #333;
+  font-weight: 500;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.brand-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brand-contents img {
+  max-width: 160px;
+}
+
+
+/* Job Categories CSS */
+
+.job-category-area {
+  padding: 100px 0;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.content-header h3 {
+  font-size: 25px;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.content-header a {
+  color: #43EF6E;
+  padding: 10px 30px;
+  border: 2px solid #43EF6E;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+.content-header a:hover {
+  background-color: #43EF6E;
+  color: #fff;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.single-content {
+  padding: 30px 35px 0px 35px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 20%;
+  margin: 10px;
+  height: 220px;
+  transition: 0.3s ease-in-out;
+}
+.single-content img {
+  max-width: 70px;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 4px;
+}
+.single-content h4 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+.single-content p {
+  font-size: 15px;
+  color: rgba(0,0,0,0.5);
+}
+.single-content:hover {
+  border: 1px solid #43EF6E;
+}
+
+
+/* Offering Area CSS */
+
+.offering-area {
+  padding: 50px 0 50px;
+}
+.container.offering {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.offering-left {
+  flex: 50%;
+  position: relative;
+}
+.offering-left img {
+  max-width: 500px;
+}
+.sticker {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.sticker img {
+  max-width: 40px;
+}
+.offering-right {
+  width: 45%;
+  margin-top: -70px;
+}
+.offering-right h3 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #333;
+}
+.offering-right p {
+  font-size: 18px;
+  color: rgba(0,0,0,0.5);
+  margin-top: ;
+  margin: 30px 0 70px;
+}
+.checks p img {
+  max-width: 25px;
+}
+.checks p {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+/* Job List CSS */
+.job-list-area{
+	padding: 100px 0;
+	background-color: #333;
+}
+
+.job-list-area .container form.search_jobs {
+  max-width: 800px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.single-job {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+.job-img {
+  max-width: 150px;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+.job-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.job-list-area .content-header h3{
+	color: #fff;
+}
+.location {
+  font-size: 15px;
+}
+.full-location img {
+  max-width: 22px;
+}
+.full-location {
+  display: flex;
+  align-items: center;
+}
+
+.duration{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.duration img {
+  max-width: 22px;
+}
+.job-titles {
+  width: 335px;
+}
+.action-step a {
+  background-color: steelblue;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+}
+.action-step {
+  text-align: center;
+}
+.action-step p {
+  color: rgba(0,0,0,0.5);
+}
+.action-step a:hover {
+  background-color: #333;
+}
+
+
+/* CTA Area CSS */
+
+.cta-area {
+  padding: 80px 0;
+  background-color: #43EF6E;
+}
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cta-content h3 {
+  font-size: 50px;
+  color: #fff;
+}
+.cta-content p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #fff;
+}
+.cta-form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+   box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.cta-form input[type="email"] {
+  width: 70%;
+  padding: 7px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid transparent;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.cta-form input[type="submit"] {
+  border-radius: 30px;
+  width: 200px;
+  font-size: 18px;
+  padding: 17px;
+  right: 0px;
+  background-color: #333;
+  text-transform: uppercase;
+}
+
+/* Footer CSS Starts */
+
+.footer-upper {
+  display: flex;
+  justify-content: space-around;
+}
+.links h4 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.links a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+}
+.links a:hover {
+  color: greenyellow;
+}
+.footer {
+  padding: 100px 0;
+  background-color: #333;
+}
+.footer .logo a span {
+  color: #ffff;
+}
+.footer-lower p {
+  text-align: center;
+  margin: 80px 0 0px;
+  color: #ddd;
+  font-size: 18px;
+}
+
+/*Admin Dashboard CSS*/
+
+.page-title {
+  padding: 50px 0;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.companies h3,.applicants h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.single-company {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+.single-company img {
+  max-width: 150px;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn a {
+  display: block;
+  text-align: ;
+  padding: 10px;
+}
+.btn a {
+  background-color: steelblue;
+  color: #ffff;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.btn a:last-child {
+  background-color: tomato;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  
+}
+
+
+/*Employee DashBoard CSS*/
+
+.company-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-actions a {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 5px;
+  background: steelblue;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+/*Login Page CSS*/
+
+.login-area {
+  padding: 100px 0 400px;
+}
+.login-area h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login-form {
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  margin: 0 auto;
+}
+.login-form .role{
+	font-size: 18px!important;
+}
+.login-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  margin: 5px 0 20px;
+  border-radius: 4px;
+}
+.login-form input[type="submit"] {
+  background: #43EF6E;
+  color: #fff;
+  text-transform: ;
+  font-size: 18px;
+  width: 200px;
+  display: block;
+  margin: 20px auto 0;
+  transition: 0.3s ease;
+}
+.login-form p,.login-form a{
+  text-align: center;
+  display: inline-block;
+}
+
+.login-form input[type="submit"]:hover{
+	background-color: #333;
+}
+
+
+
+/*Registration Page CSS*/
+.register-area {
+  padding: 100px 0 400px;
+}
+.register-area h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.register-form {
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  margin: 0 auto;
+}
+.register-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  margin: 5px 0 20px;
+  border-radius: 4px;
+}
+.register-form input[type="submit"] {
+  background: #43EF6E;
+  color: #fff;
+  text-transform: ;
+  font-size: 18px;
+  width: 200px;
+  display: block;
+  margin: 20px auto 0;
+  transition: 0.3s ease;
+}
+.register-form p,.register-form a{
+  text-align: center;
+  display: inline-block;
+}
+
+.register-form input[type="submit"]:hover{
+	background-color: #333;
+}
